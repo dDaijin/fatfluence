@@ -1,5 +1,4 @@
-// App.js
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom";
 import { FormPage } from "./components/FormPage";
 import { SuccessPage } from "./components/SuccessPage";
 import { EntryPage } from "./components/EntryPage";
