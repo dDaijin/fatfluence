@@ -195,8 +195,7 @@ npm run build
 
 This project is released under the [MIT License](https://www.google.com/search?q=LICENSE).
 
-https://ddaijin.github.io/fatfluence/
 
 ```
-
+https://ddaijin.github.io/fatfluence/
 ```
