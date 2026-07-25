@@ -3,19 +3,19 @@
 Сюди додано Mermaid-діаграми (архітектура, потік даних між сторінками, структура збереження даних у `localStorage`), розділ із UI/Design покращеннями, детальніший опис компонентів та виправлені можливі технічні нюанси.
 
 ```markdown
-# 🎫 FatFluence — React Ticket & Task Tracker
+#  FatFluence — React Ticket & Task Tracker
 
 A minimalist, high-contrast ticket and task management web application built with **React**. **FatFluence** allows users to create tasks, manage workflows (`ToDo` → `inProgress` → `Done`), and leave comments on individual tickets — all with **100% client-side persistence** and zero backend dependencies.
 
 ---
 
-## 🎨 Theme & Design Aesthetics
+##  Theme & Design Aesthetics
 
 FatFluence uses a bold, eye-catching color palette (Black, Yellow, Red) designed for high readability, quick actions, and clear task status visibility.
 
 ---
 
-## 📌 Key Features
+##  Key Features
 
 * **Ticket Creation:** Quickly spin up new tasks with a title and detailed description.
 * **Workflow Management:** Update task status seamlessly on the ticket detail view.
@@ -25,7 +25,7 @@ FatFluence uses a bold, eye-catching color palette (Black, Yellow, Red) designed
 
 ---
 
-## 📐 Application Architecture & Data Flow
+##  Application Architecture & Data Flow
 
 ### 1. Component & Route Architecture
 
@@ -104,7 +104,7 @@ erDiagram
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Frontend Library:** [React 19](https://react.dev/)
 * **Routing:** [React Router 7](https://reactrouter.com/)
@@ -114,7 +114,7 @@ erDiagram
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 fatfluence/
@@ -145,7 +145,7 @@ fatfluence/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -187,16 +187,18 @@ npm run build
 
 ---
 
-## 💡 Technical Notes & Limitations
+##  Technical Notes & Limitations
 
 * **Client-Only Persistence:** All data lives strictly in your browser's `localStorage` under the `entries` key. Clearing your browser cache will permanently remove all tickets.
 * **No Cross-Device Syncing:** Because there is no backend server or remote database, tickets will not sync across different devices or browsers.
 
 ---
 
-## 📄 License
+##  License / Link
 
 This project is released under the [MIT License](https://www.google.com/search?q=LICENSE).
+
+https://ddaijin.github.io/fatfluence/
 
 ```
 
